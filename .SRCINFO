@@ -1,11 +1,10 @@
 pkgbase = mingw-w64-zstd
 	pkgdesc = Zstandard - Fast real-time compression algorithm (mingw-w64)
 	pkgver = 1.5.5
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.zstd.net/
 	arch = x86_64
-	license = BSD
-	license = GPL2
+	license = BSD-3-Clause OR GPL-2.0-or-later
 	makedepends = mingw-w64-cmake
 	depends = mingw-w64-crt
 	options = staticlibs
